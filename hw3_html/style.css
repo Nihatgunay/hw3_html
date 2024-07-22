@@ -1,0 +1,513 @@
+.head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    background-color: #3c3d49;
+    height: 500px;
+}
+
+.selecao {
+    margin-top: 40px;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 40px;
+}
+
+.buttons .but {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 15px;
+    list-style: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.buttons .but:hover {
+    background-color: rgb(170, 115, 12);
+    transition: 500ms;
+}
+
+.d-block {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.about {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.aboutname {
+    display: flex;
+}
+
+.aboutname .aa {
+    font-size: larger;
+    color: rgb(143, 132, 132);
+    text-decoration: none;
+}
+
+.aboutname .hr {
+    width: 120px;
+    margin-left: 15px;
+    color: rgb(239,102,3);
+    border-bottom: 1px solid;
+    height: 19px;
+}
+
+.about .who {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.aboutlist {
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.aboutlist .aboutdiv1 .p {
+    width: 680px;
+    font-size: large;
+}
+
+.plist .plistas {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+}
+
+.aboutdiv2 {
+    display: inline;
+}
+
+.p2list .p2 {
+    font-size: large;
+}
+
+.pbutton {
+    margin-top: 30px;
+}
+
+.pbutton .pbut {
+    text-decoration: none;
+    background-color: rgb(239,102,3);
+    color: white;
+    padding: 10px 25px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 6px;
+}
+
+.everybutton {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.fa-solid.fa-binoculars {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.fa-solid.fa-box {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.fa-solid.fa-sun {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.butdiv1 {
+    border: 1px solid rgb(227,227,227);
+    width: 300px;
+    display: flex;
+    height: 100px;
+    margin-left: 40px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.butdiv1:hover {
+    background-color: rgb(239,102,3);
+    color: white;
+    transition: 500ms;
+}
+
+.buta1 {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.info {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.info .infotext {
+    display: inline;
+}
+
+.infotext .infoa {
+    width: 730px;
+}
+
+.infotext .infoa .a46 {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.infot1 {
+    margin-top: 10px;
+    width: 700px;
+}
+
+.infot1 .infota1 {
+    text-decoration: none;
+    color: black;
+}
+
+.infotlist {
+    margin-top: 7px;
+    width: 500px;
+}
+
+.list12 {
+    text-decoration: none;
+    color: black;
+}
+
+.infofoot {
+    width: 700px;
+}
+
+.infoota1 {
+    text-decoration: none;
+    color: black;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #3c3d49;
+    height: 180px;
+}
+
+.calltoaction {
+    margin-left: 100px;
+}
+
+.actiona1 {
+    text-decoration: none;
+    color: white;
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p47 {
+    margin-top: 10px;
+    color: white;
+    width: 850px;
+}
+
+.actionbutton {
+    margin-left: 200px;
+}
+
+.actionbut {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(239,102,3);
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.prices {
+    margin-top: 40px;
+    display: flex;
+}
+
+.pricesnames {
+    margin-left: 60px;
+}
+
+.pricesnames .name123 {
+    border: 1px solid rgb(245,245,245);
+    background-color: rgb(245,245,245);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 90px;
+    text-align: center;
+}
+
+.pricesnames .name123 .free {
+    text-decoration: none;
+    color: rgb(90, 86, 86);
+    font-weight: 600;
+    font-size: large;
+}
+
+.undername {
+    display: inline-block;
+    border: 1px solid rgb(245,245,245);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+}
+
+.div34 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.a654 {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.div342 {
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.div342 .month12 {
+    text-decoration: none;
+    color: rgb(160, 154, 154);
+}
+
+.list56 {
+    margin-top: 20px;
+    margin-right: 21px;
+    text-align: center;
+}
+
+.ul1 {
+    list-style: none;
+}
+
+.list56 .a98 {
+    color: black;
+    text-decoration: none;
+}
+
+.pricesnames .pricefoot {
+    border: 1px solid rgb(245,245,245);
+    background-color: rgb(245,245,245);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 90px 15px 90px;
+    display: flex;
+    align-items: center;
+}
+
+.buynow {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(239,102,3);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.mainfooter {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.fa-solid.fa-location-dot {
+    font-size: 20px;
+    background-color: rgb(243, 241, 239);
+    padding: 12px 15px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-location-dot:hover {
+    background-color: rgb(239,102,3);
+    color: white;
+    transition: 500ms;
+}
+
+.fa-solid.fa-phone {
+    font-size: 20px;
+    background-color: rgb(243, 241, 239);
+    padding: 12px 13px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-phone:hover {
+    background-color: rgb(239,102,3);
+    color: white;
+    transition: 500ms;
+}
+
+.fa-solid.fa-envelope {
+    font-size: 20px;
+    background-color: rgb(243, 241, 239);
+    padding: 12px 13px;
+    border-radius: 50%;
+}
+
+.fa-solid.fa-envelope:hover {
+    background-color: rgb(239,102,3);
+    color: white;
+    transition: 500ms;
+}
+
+.footm {
+    margin-top: 30px;
+    display: flex;  
+}
+
+.footin {
+    display: inline;
+    margin-left: 15px;
+}
+
+.address {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.street1 {
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(161, 150, 150);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footdiv2 {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.input1 {
+    display: flex;
+}
+
+.input12 {
+    width: 300px;
+    margin-left: 40px;
+    height: 40px;
+}
+
+.input123 {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 640px;
+    height: 40px;
+}
+
+.input1234 {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 640px;
+    height: 80px;
+    
+}
+
+.messdiv {
+    margin-top: 40px;
+    margin-left: 250px;
+}
+
+.mess {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(239,102,3);
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.foot46 {
+    margin-top: 50px;
+    background-color: rgb(42,44,57);
+    height: 270px;
+}
+
+.selec {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 650px;
+    margin-top: 40px;
+}
+
+.p589 {
+    color: white;
+    margin-left: 330px;
+    font-style: italic;
+}
+
+.fa-brands.fa-x-twitter {
+    margin-top: 20px;
+    margin-left: 630px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(239,102,3);
+    padding: 9px;
+    border-radius: 50%;
+}
+
+.fa-brands.fa-instagram {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(239,102,3);
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.fa-brands.fa-facebook {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(239,102,3);
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.fa-brands.fa-linkedin {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(239,102,3);
+    padding: 9px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.hrfoot {
+    margin-top: 30px;
+    margin-left: 200px;
+    color: white;
+    width: 1000px;
+}
+
+.copyright {
+    color: white;
+    text-decoration: none;
+    margin-left: 570px;
+}
